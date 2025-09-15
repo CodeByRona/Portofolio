@@ -1,0 +1,108 @@
+   body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      display: flex; /* Use flexbox for layout */
+      align-items: center; /* Vertically align items */
+      justify-content: center; /* Center content horizontally */
+      flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    }
+    .header-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; /* Align text to the right */
+        margin-right: 20px; /* Space between text and image */
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em; /* Larger font size for name */
+    }
+    header p {
+        margin: 5px 0 0 0; /* Add a small margin below the name */
+        font-size: 1.1em;
+    }
+    .profile-pic {
+      width: 100px; /* Reduced size for the image */
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      margin-left: 20px; /* Space between text and image */
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #444;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #fff;
+      margin-top: 30px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 8px 15px;
+      margin-top: 10px;
+      background: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background: #0056b3;
+    }
+  #skills {
+  background: #f1f1f1;
+  padding: 40px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.skill-card h3 {
+  margin-bottom: 10px;
+  color: #444;
+}
