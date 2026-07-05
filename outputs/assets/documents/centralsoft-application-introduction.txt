@@ -1,0 +1,12 @@
+Dear Centralsoft team,
+
+My name is Rona Beqiri, and I am a Computer Science student interested in software engineering, backend development, and AI-powered applications. I am applying for the Centralsoft Internship Program because I want to grow in an environment where interns work on real projects, learn from experienced engineers, and improve through practical responsibilities.
+
+Through my internship experience in AI Engineering and Backend Development, I have worked with data processing, AI application testing, APIs, databases, business logic, and e-commerce backend functionality with Shopware. These experiences helped me understand that good software is not only about writing code, but also about building reliable, maintainable, and useful solutions with a team.
+
+I am especially interested in backend services, REST APIs, databases, Python, SQL, Laravel, FastAPI, and practical AI applications. I would be excited to join the bootcamp, learn from feedback, contribute with discipline and curiosity, and continue growing toward a junior software engineering role.
+
+Thank you for considering my application.
+
+Best regards,
+Rona Beqiri

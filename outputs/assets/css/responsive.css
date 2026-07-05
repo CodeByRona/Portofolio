@@ -1,0 +1,121 @@
+@media (max-width: 980px) {
+  .site-header {
+    align-items: flex-start;
+  }
+
+  .site-nav {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .hero,
+  .split-section,
+  .contact-section {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    gap: 32px;
+    min-height: auto;
+  }
+
+  .section-heading {
+    position: static;
+  }
+
+  .skills-matrix {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-section {
+    padding: 34px;
+  }
+}
+
+@media (max-width: 680px) {
+  .site-header,
+  .section,
+  .contact-section,
+  .site-footer {
+    width: min(100% - 28px, 1180px);
+  }
+
+  .site-header {
+    position: static;
+    margin-top: 14px;
+  }
+
+  .brand span:last-child {
+    display: none;
+  }
+
+  .site-nav a {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  .section {
+    padding: 72px 0;
+  }
+
+  .hero {
+    padding-top: 46px;
+  }
+
+  h1 {
+    font-size: 42px;
+    line-height: 1;
+  }
+
+  .hero-text,
+  .story p,
+  .project-body p {
+    font-size: 16px;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+  }
+
+  .identity-card,
+  .experience-topline,
+  .site-footer {
+    flex-direction: column;
+  }
+
+  .signal-grid,
+  .skills-matrix,
+  .certifications {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-group.wide {
+    grid-column: auto;
+  }
+
+  .skill-group h3 {
+    min-height: auto;
+  }
+
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+
+  .project-index {
+    justify-content: flex-start;
+    padding: 20px 24px 0;
+    border-right: 0;
+  }
+
+  .project-body {
+    padding: 20px 24px 24px;
+  }
+
+  .contact-section {
+    padding: 26px;
+  }
+
+  .contact-links a {
+    flex: 1 1 120px;
+  }
+}
